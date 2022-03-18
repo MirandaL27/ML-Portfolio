@@ -5,7 +5,7 @@ function Nav(props) {
     return (
         <header>
             <h1>
-                <a href="/">Portfolio</a>
+                <span onClick={() => setCurrentSelectedLink("About")} >Miranda Lane</span>
             </h1>
             <nav>
                 <ul>

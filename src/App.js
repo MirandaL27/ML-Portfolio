@@ -30,6 +30,10 @@ function App() {
       <main>
          {RenderPage()} 
       </main>
+      <footer>
+        <p>Github: <a href='https://github.com/MirandaL27'>https://github.com/MirandaL27</a></p>
+        <p>LinkedIn: <a href='https://www.linkedin.com/in/miranda-lane-9428331ba/'>https://www.linkedin.com/in/miranda-lane-9428331ba/</a></p>
+      </footer>
     </div>
   );
 }

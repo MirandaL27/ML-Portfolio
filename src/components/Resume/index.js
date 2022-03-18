@@ -4,10 +4,7 @@ const Resume = () => {
     return (
         <div>
             <h2>Resume</h2>
-            <h3>Links</h3>
-            <p>Github: <a href='https://github.com/MirandaL27'>https://github.com/MirandaL27</a></p>
-            <p>LinkedIn: <a href='https://www.linkedin.com/in/miranda-lane-9428331ba/'>https://www.linkedin.com/in/miranda-lane-9428331ba/</a></p>
-
+            <a href={require("../../assets/ml_resume.pdf")} download>Download Resume</a>
             <h3>Front-end Skills</h3>
             <ul>
                 <li>HTML</li>
