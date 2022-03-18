@@ -9,23 +9,23 @@ function Nav(props) {
             </h1>
             <nav>
                 <ul>
-                    <li>
-                        <span className = {(currentSelectedLink==='About' ? "link": "link-navActive")} onClick={setCurrentSelectedLink("About")}>About</span>
+                    <li className={(currentSelectedLink==='About' ? "link": "link-navActive")}>
+                        <span onClick={() => setCurrentSelectedLink("About")}>About</span>
                     </li>
                 </ul>
                 <ul>
-                    <li>
-                        <span className = {(currentSelectedLink==='Contact' ? "link": "link-navActive")} onClick={setCurrentSelectedLink("Contact")}>Contact</span>
+                    <li className = {(currentSelectedLink==='Contact' ? "link": "link-navActive")}>
+                        <span onClick={() => setCurrentSelectedLink("Contact")}>Contact</span>
                     </li>
                 </ul>
                 <ul>
-                    <li>
-                        <span className = {(currentSelectedLink==='Portfolio' ? "link": "link-navActive")} onClick={setCurrentSelectedLink("Portfolio")}>Portfolio</span>
+                    <li className = {(currentSelectedLink==='Portfolio' ? "link": "link-navActive")}>
+                        <span onClick={() => setCurrentSelectedLink("Portfolio")}>Portfolio</span>
                     </li>
                 </ul>
                 <ul>
-                    <li>
-                        <span className = {(currentSelectedLink==='Resume' ? "link": "link-navActive")} onClick={setCurrentSelectedLink("Resume")}>Resume</span>
+                    <li className = {(currentSelectedLink==='Resume' ? "link": "link-navActive")}>
+                        <span onClick={() => setCurrentSelectedLink("Resume")}>Resume</span>
                     </li>
                 </ul>
             </nav>
