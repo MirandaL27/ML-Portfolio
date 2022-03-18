@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div>
             <h2>About</h2>
-            <img alt="picture of Miranda Lane" src=""></img>
+            <img alt="picture of Miranda Lane" src={require("../../assets/madphoto.com-34_pp.jpg")}></img>
             <p>     I'm a creative person who also has a strong coding background. 
                 I graduated from the University of California Santa Barbara in june of 2018 with a BA in musical composition and a 
                 BS in computer science. As a computer scientist and a musician, I'm always especially interested in projects where
