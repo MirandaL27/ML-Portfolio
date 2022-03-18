@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav';
+import About from './components/About';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
+  const [currentSelectedLink, setCurrentSelectedLink] = useState();
+
+  function RenderPage(currentSelectedLink){
+    if(currentSelectedLink === "About"){
+      return <About />;
+    }
+    else if(currentSelectedLink === "Contact"){
+      return <Contact />;
+    }
+    else if(currentSelectedLink === "Portfolio"){
+      return <Portfolio />;
+    }
+    else {
+      return <Resume />;
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav currentSelectedLink={currentSelectedLink} setCurrentSelectedLink={setCurrentSelectedLink}/>
+      <main>
+         {RenderPage()} 
+      </main>
     </div>
   );
 }
