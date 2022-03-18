@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --color-1: rgb(198, 243, 198);
+  --color-2:  darkgreen;
+  --color-3: cadetblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: var(--color-1);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fit-to-vh{
+  height: 100vh;
+}
+
+.code-background{
+  background-image: url('./assets/pexels-markus-spiske-1089438.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.height-1{
+  height: 200px;
+}
+
+.height-2{
+  height: 100px;
+}
+
+.color-1{
+  color: var(--color-1);
+}
+
+.color-2{
+  color: var(--color-2);
+}
+.color-3{
+  color: var(--color-3);
+}
+
+.biggest-font{
+  font-size: 56px;
+}
+
+.bigger-font{
+  font-size: 40px;
+}
+
+.black-background{
+  background-color: black;
+}
+
+.flex-row{
   display: flex;
-  flex-direction: column;
+}
+
+.no-list-style{
+  list-style: none;
+}
+
+.no-border{
+  text-decoration: none;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+
+.space-evenly{
+  justify-content: space-evenly;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.half-width{
+  width: 50%;
+}
+
+.center-vertically{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.p-1{
+  padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.p-2{
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p-3{
+  padding: 15px;
+}
+
+.image-holder-1{
+  width: 30%;
+  height: auto;
+}
+
+.thick-border{
+  border: 20px solid black;
+}
+
+.curved-border{
+  border-radius: 15px;
+}
+
+.width-1{
+  width: 100%;
+}
+
+.clickable:hover{
+  background-color: var(--color-1);
+  color: var(--color-2);
+  cursor: pointer;
 }
