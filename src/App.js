@@ -25,7 +25,7 @@ function App() {
   }
 
   return (
-    <div className="code-background fit-to-vh">
+    <div className="code-background">
       <Nav currentSelectedLink={currentSelectedLink} setCurrentSelectedLink={setCurrentSelectedLink}/>
       <main>
          {RenderPage()} 
