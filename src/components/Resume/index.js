@@ -7,7 +7,7 @@ const Resume = () => {
                 <h2 className="black-background p-3 inline-block">Resume</h2>
             </div>
             <div>
-                <a className="p-3 no-border color-1 clickable inline-block black-background" href={require("../../assets/ml_resume.pdf")} download>Download Resume</a>
+                <a className="p-3 no-border color-1 transition clickable inline-block black-background" href={require("../../assets/ml_resume.pdf")} download>Download Resume</a>
             </div>
             <div>
                 <h3 className="p-3 black-background inline-block">Front-end Skills</h3>

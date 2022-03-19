@@ -16,7 +16,7 @@ const Project = (props) => {
                     <div className = "center-vertically flex-column" key={`project${i}`}>
                         <div className="image-holder-2">
                             <a target="_blank" href={project.link}>
-                                <img className="width-1 thick-border pic" alt={`screenshot of ${project.name}`} src={require(`../../assets/${project.pic}.jpg`)}></img>
+                                <img className="width-1 thick-border transition pic" alt={`screenshot of ${project.name}`} src={require(`../../assets/${project.pic}.jpg`)}></img>
                             </a>
                         </div>
                         <div className="black-background">

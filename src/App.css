@@ -183,3 +183,7 @@ body {
 .font{
   font-family: 'Press Start 2P', cursive;
 }
+
+.transition{
+  transition: all 0.5s ease-in-out;
+}
