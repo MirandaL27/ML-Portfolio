@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ml-portfolio/static/css/main.a2a2df5d.css",
-    "main.js": "/ml-portfolio/static/js/main.e3302267.js",
+    "main.css": "/ml-portfolio/static/css/main.1945c15f.css",
+    "main.js": "/ml-portfolio/static/js/main.04cea1d6.js",
     "static/js/787.a19f9441.chunk.js": "/ml-portfolio/static/js/787.a19f9441.chunk.js",
     "static/media/pexels-markus-spiske-1089438.jpg": "/ml-portfolio/static/media/pexels-markus-spiske-1089438.e41210c3d62aed70e627.jpg",
     "static/media/madphoto.com-34_pp.jpg": "/ml-portfolio/static/media/madphoto.com-34_pp.0544412e5d73b4705393.jpg",
@@ -13,12 +13,12 @@
     "static/media/monster-code-quiz-screenshot.jpg": "/ml-portfolio/static/media/monster-code-quiz-screenshot.fe65a5fdc87f4fe4514c.jpg",
     "static/media/coding-quiz_screenshot.jpg": "/ml-portfolio/static/media/coding-quiz_screenshot.a06e82175bf67e962b20.jpg",
     "index.html": "/ml-portfolio/index.html",
-    "main.a2a2df5d.css.map": "/ml-portfolio/static/css/main.a2a2df5d.css.map",
-    "main.e3302267.js.map": "/ml-portfolio/static/js/main.e3302267.js.map",
+    "main.1945c15f.css.map": "/ml-portfolio/static/css/main.1945c15f.css.map",
+    "main.04cea1d6.js.map": "/ml-portfolio/static/js/main.04cea1d6.js.map",
     "787.a19f9441.chunk.js.map": "/ml-portfolio/static/js/787.a19f9441.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2a2df5d.css",
-    "static/js/main.e3302267.js"
+    "static/css/main.1945c15f.css",
+    "static/js/main.04cea1d6.js"
   ]
 }
