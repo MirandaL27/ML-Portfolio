@@ -30,6 +30,21 @@ const Portfolio = () => {
             pic: 'lost-pet-app_screenshot',
             link: 'https://lost-pet-app-project.herokuapp.com/',
             gitHub:"https://github.com/MirandaL27/lost-pet-app"
+        },
+        {
+            name: 'Weather Dashboard',
+            technologies:'HTML/CSS/JavaScript/Open Weather API',
+            pic: 'weather-dashboard_screenshot',
+            link:'https://mirandal27.github.io/Weather-Dashboard/',
+            gitHub: 'https://github.com/MirandaL27/Weather-Dashboard',
+        },
+        {
+            name: 'Coding Quiz',
+            technologies: 'HTML/CSS/JavaScript',
+            pic: 'coding-quiz_screenshot',
+            link: 'https://mirandal27.github.io/Coding-Quiz/',
+            gitHub: 'https://github.com/MirandaL27/Coding-Quiz'
+
         }
     ]);
 
