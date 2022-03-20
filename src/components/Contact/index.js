@@ -6,28 +6,66 @@ const Contact = () => {
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
 
+    function handleChange(event){
+        setFormState({ ...formState, [event.target.name]: event.target.value });   
+    }
+
     function handleBlur(event) {
 
         if (event.target.name === 'email') {
-            const valid = validateEmail(event.target.value);
-            if (!valid) {
+            if (!validateEmail(event.target.value)) {
                 setErrorMessage('Your email is invalid.');
             }
-        }
-        else {
-            if (!event.target.value.length) {
-                setErrorMessage(`${event.target.name} is required.`);
-            } else {
-                setErrorMessage('');
+            else{
+                if(!name.length){
+                    setErrorMessage("name is required.");
+                }
+                else if(!message.length){
+                    setErrorMessage("message is required.");
+                }
+                else{
+                    setErrorMessage("");
+                }
             }
         }
-        if (errorMessage.length === 0) {
-            setFormState({ ...formState, [event.target.name]: event.target.value });
+        else if(event.target.name === "name"){
+            if (!event.target.value.length) {
+                setErrorMessage(`name is required.`);
+            } 
+            else {
+                if(!validateEmail(email)){
+                    setErrorMessage('Your email is invalid');
+                }
+                else if(!message.length){
+                    setErrorMessage("message is required");
+                }
+                else{
+                    setErrorMessage('');
+                }
+                
+            }
+        }
+        else{
+            if(!event.target.value.length){
+                setErrorMessage('Message is required.')
+            }
+            else{
+                if(!validateEmail(email)){
+                    setErrorMessage("Your email is invalid");
+                }
+                else if(!name.length){
+                    setErrorMessage("name is required.")
+                }
+                else{
+                    setErrorMessage('');
+                }
+            }
         }
     }
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+        setFormState({name: "", email: "", message: ""});
     }
 
     return (
@@ -36,16 +74,16 @@ const Contact = () => {
             <form className="contact-form p-3" onSubmit={handleSubmit}>
                 <div className="flex-row p-3">
                     <label className="half-width black-background p-3" htmlFor='name'>Name: </label>
-                    <input name="name" className="name half-width light-green-background thin-border p-2 transition box font color-2 no-outline" type="text" defaultValue={name} onBlur={handleBlur} id="name"></input>
+                    <input name="name" className="name half-width light-green-background thin-border p-2 transition box font color-2 no-outline" type="text" value={name} onBlur={handleBlur} onChange={handleChange} id="name"></input>
                 </div>
                 <div className="flex-row p-3">
                     <label className="half-width black-background p-3" htmlFor='email'>Email Address: </label>
-                    <input name="email" className="email half-width light-green-background thin-border p-2 transition box font color-2 no-outline" type="text" defaultValue={email} onBlur={handleBlur} id="email"></input>
+                    <input name="email" className="email half-width light-green-background thin-border p-2 transition box font color-2 no-outline" type="text" value={email} onBlur={handleBlur} onChange={handleChange} id="email"></input>
                 </div>
 
                 <div className="flex-row p-3">
                     <label className="half-width black-background p-3" htmlFor='message'>Message: </label>
-                    <input name="message" className="message half-width light-green-background thin-border p-2 transition box font color-2 no-outline" type="textarea" defaultValue={message} onBlur={handleBlur} id="message"></input>
+                    <input name="message" className="message half-width light-green-background thin-border p-2 transition box font color-2 no-outline" type="textarea" value={message} onBlur={handleBlur} onChange={handleChange} id="message"></input>
                 </div>
                 <button disabled={errorMessage} type="submit" className={(errorMessage ? "p-2 font transition disabled" : "p-2 font light-green-background color-2 thin-border transition btn")}>Submit</button>
             </form>
