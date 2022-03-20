@@ -8,6 +8,7 @@ This project is a single-page-application consisting of:
 * A portfolio page - featuring 6 projects that the developer has completed.
 * A Contact page - featuring a contact form with form validation and a submit button.
 * A resume page - featuring resume contents and a downloadable resume copy.
+* A footer - featuring github and linkedIn links.
 The purpose of this project was to practice creating react applications. 
 
 # Technologies used
