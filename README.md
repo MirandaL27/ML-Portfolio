@@ -20,7 +20,7 @@ The purpose of this project was to practice creating react applications.
 
 # Screenshots
 ![alt text](src/assets/portfolio_screenshot.png)
-Deployed Page: 
+Deployed Page: http://MirandaL27.github.io/ml-portfolio 
 
 
 # Credits
