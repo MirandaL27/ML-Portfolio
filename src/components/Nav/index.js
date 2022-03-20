@@ -9,16 +9,16 @@ function Nav(props) {
             </h1>
             <nav className="half-width">
                 <ul className='no-list-style flex-row space-between'>
-                    <li className={(currentSelectedLink==='About' ? "link": "link-navActive") + "bigger-font color-1"}>
+                    <li className={(currentSelectedLink==='About' ? "link navActive ": "link color-1")}>
                         <span className="p-3 transition clickable" onClick={() => setCurrentSelectedLink("About")}>About</span>
                     </li>
-                    <li className = {(currentSelectedLink==='Contact' ? "link": "link-navActive")+ "bigger-font color-1"}>
+                    <li className = {(currentSelectedLink==='Contact' ? "link navActive ": "link color-1")}>
                         <span className="p-3 transition clickable"onClick={() => setCurrentSelectedLink("Contact")}>Contact</span>
                     </li>
-                    <li className = {(currentSelectedLink==='Portfolio' ? "link": "link-navActive")+ "bigger-font color-1"}>
+                    <li className = {(currentSelectedLink==='Portfolio' ? "link navActive ": "link color-1")}>
                         <span className="p-3 transition clickable" onClick={() => setCurrentSelectedLink("Portfolio")}>Portfolio</span>
                     </li>
-                    <li className = {(currentSelectedLink==='Resume' ? "link": "link-navActive")+ "bigger-font color-1"}>
+                    <li className = {(currentSelectedLink==='Resume' ? "link navActive ": "link color-1")}>
                         <span className="p-3 transition clickable" onClick={() => setCurrentSelectedLink("Resume")}>Resume</span>
                     </li>
                 </ul>
