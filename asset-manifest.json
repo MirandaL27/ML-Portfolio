@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ml-portfolio/static/css/main.1945c15f.css",
-    "main.js": "/ml-portfolio/static/js/main.04cea1d6.js",
-    "static/js/787.a19f9441.chunk.js": "/ml-portfolio/static/js/787.a19f9441.chunk.js",
-    "static/media/pexels-markus-spiske-1089438.jpg": "/ml-portfolio/static/media/pexels-markus-spiske-1089438.e41210c3d62aed70e627.jpg",
-    "static/media/madphoto.com-34_pp.jpg": "/ml-portfolio/static/media/madphoto.com-34_pp.0544412e5d73b4705393.jpg",
-    "static/media/ml_resume.pdf": "/ml-portfolio/static/media/ml_resume.6bff730b451296855f76.pdf",
-    "static/media/adopt-a-parrot_screenshot.jpg": "/ml-portfolio/static/media/adopt-a-parrot_screenshot.95d5310ae0369eb489ff.jpg",
-    "static/media/lost-pet-app_screenshot.jpg": "/ml-portfolio/static/media/lost-pet-app_screenshot.40b4f1842c6ce46201c4.jpg",
-    "static/media/weather-dashboard_screenshot.jpg": "/ml-portfolio/static/media/weather-dashboard_screenshot.823c9c2cee38dc676398.jpg",
-    "static/media/12-tone_screenshot.jpg": "/ml-portfolio/static/media/12-tone_screenshot.1be6ffc51e59a850f0f4.jpg",
-    "static/media/monster-code-quiz-screenshot.jpg": "/ml-portfolio/static/media/monster-code-quiz-screenshot.fe65a5fdc87f4fe4514c.jpg",
-    "static/media/coding-quiz_screenshot.jpg": "/ml-portfolio/static/media/coding-quiz_screenshot.a06e82175bf67e962b20.jpg",
-    "index.html": "/ml-portfolio/index.html",
-    "main.1945c15f.css.map": "/ml-portfolio/static/css/main.1945c15f.css.map",
-    "main.04cea1d6.js.map": "/ml-portfolio/static/js/main.04cea1d6.js.map",
-    "787.a19f9441.chunk.js.map": "/ml-portfolio/static/js/787.a19f9441.chunk.js.map"
+    "main.css": "/ML-Portfolio/static/css/main.7dbc8b95.css",
+    "main.js": "/ML-Portfolio/static/js/main.a47b181c.js",
+    "static/js/787.a19f9441.chunk.js": "/ML-Portfolio/static/js/787.a19f9441.chunk.js",
+    "static/media/pexels-markus-spiske-1089438.jpg": "/ML-Portfolio/static/media/pexels-markus-spiske-1089438.e41210c3d62aed70e627.jpg",
+    "static/media/madphoto.com-34_pp.jpg": "/ML-Portfolio/static/media/madphoto.com-34_pp.0544412e5d73b4705393.jpg",
+    "static/media/ml_resume.pdf": "/ML-Portfolio/static/media/ml_resume.6bff730b451296855f76.pdf",
+    "static/media/adopt-a-parrot_screenshot.jpg": "/ML-Portfolio/static/media/adopt-a-parrot_screenshot.95d5310ae0369eb489ff.jpg",
+    "static/media/lost-pet-app_screenshot.jpg": "/ML-Portfolio/static/media/lost-pet-app_screenshot.40b4f1842c6ce46201c4.jpg",
+    "static/media/weather-dashboard_screenshot.jpg": "/ML-Portfolio/static/media/weather-dashboard_screenshot.823c9c2cee38dc676398.jpg",
+    "static/media/12-tone_screenshot.jpg": "/ML-Portfolio/static/media/12-tone_screenshot.1be6ffc51e59a850f0f4.jpg",
+    "static/media/monster-code-quiz-screenshot.jpg": "/ML-Portfolio/static/media/monster-code-quiz-screenshot.fe65a5fdc87f4fe4514c.jpg",
+    "static/media/coding-quiz_screenshot.jpg": "/ML-Portfolio/static/media/coding-quiz_screenshot.a06e82175bf67e962b20.jpg",
+    "index.html": "/ML-Portfolio/index.html",
+    "main.7dbc8b95.css.map": "/ML-Portfolio/static/css/main.7dbc8b95.css.map",
+    "main.a47b181c.js.map": "/ML-Portfolio/static/js/main.a47b181c.js.map",
+    "787.a19f9441.chunk.js.map": "/ML-Portfolio/static/js/787.a19f9441.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1945c15f.css",
-    "static/js/main.04cea1d6.js"
+    "static/css/main.7dbc8b95.css",
+    "static/js/main.a47b181c.js"
   ]
 }
