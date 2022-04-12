@@ -45,6 +45,13 @@ const Portfolio = () => {
             link: 'https://mirandal27.github.io/Coding-Quiz/',
             gitHub: 'https://github.com/MirandaL27/Coding-Quiz'
 
+        },
+        {
+            name: 'Rocks and Ropes',
+            technologies: 'Node.js/Express.js/MongoDB/Mongoose/GraphQL/Apollo/JWT/React/React Router/Bootstrap',
+            pic: 'rocks_and_ropes_screenshot',
+            link: 'https://rocks-and-ropes.herokuapp.com/',
+            gitHub: 'https://github.com/dmknapp2385/rocks-and-ropes'
         }
     ]);
 
